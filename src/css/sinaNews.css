@@ -1,0 +1,41 @@
+.water-fall-ct {
+    position: relative;
+    min-width: 900px;
+    margin: 0 20px;
+}
+
+.water-fall-ct .item {
+    position: absolute;
+    width: 280px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.water-fall-ct .hidden {
+    visibility: hidden;
+}
+
+.item a {
+    display: bolck;
+}
+
+.item a img {
+    width: 260px;
+    margin: 10px;
+}
+
+.item h4 {
+    height: 24px;
+    margin: 0 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.item p {
+    font-size: 12px;
+    line-height: 1.8;
+    margin: 10px 15px 0;
+    color: #777371;
+}

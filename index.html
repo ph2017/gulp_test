@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>requireJs测试</title>
+
+    <!--<script data-main="src/js/main" src="src/js/lib/require.js"></script>-->
+    <!--<script data-main="dist/js/index.merge" src="src/js/lib/require.js"></script>-->
+    <!--<script data-main="dist/js/main" src="../node_modules/require/require.js"></script>-->
+    <!--<script data-main="compile/js/index.merge.js" src="node_modules/requirejs/require.js"></script>-->
+
+    <!--<script data-main="compile/requirejs/main" src="node_modules/requirejs/require.js"></script>-->
+
+    <!-- build:js js/merge.min.js data-main="js/index.merge.min"-->
+    <script data-main="compile/requirejs/main" src="node_modules/requirejs/require.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:css css/merge.css -->
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/carousel.css">
+    <link rel="stylesheet" href="src/css/goTo.css">
+    <link rel="stylesheet" href="src/css/sinaNews.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+
+    <div class="center">
+        <div class="carousel">
+
+            <ul class="img-ct clearfix">
+                <li>
+                    <a href=""><img src="http://cdn.jirengu.com/book.jirengu.com/img/26.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="http://cdn.jirengu.com/book.jirengu.com/img/25.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="http://cdn.jirengu.com/book.jirengu.com/img/24.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="http://cdn.jirengu.com/book.jirengu.com/img/23.jpg" alt=""></a>
+                </li>
+            </ul>
+            <div class="btn-ct">
+                <a href="#" class="next arrow">&gt</a>
+                <a href="#" class="pre arrow">&lt</a>
+            </div>
+            <ul class="bullet-ct">
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <section>
+        <p class="line">华丽的分割线</p>
+    </section>
+
+    <section>
+        <ul class="water-fall-ct">
+            <li class="item hidden"></li>
+        </ul>
+        <a href="" class="load-more hidden">加载更多...</a>
+    </section>
+
+</body>
+
+</html>

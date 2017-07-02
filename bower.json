@@ -1,0 +1,20 @@
+{
+    "name": "requirejs_test",
+    "description": "",
+    "main": "index.js",
+    "authors": [
+        "ph2017 <billa4161@163.com>"
+    ],
+    "license": "ISC",
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "1.9.1"
+    }
+}

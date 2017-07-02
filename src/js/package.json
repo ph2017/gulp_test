@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "gulp-jshint": "^2.0.4"
+  }
+}

@@ -1,0 +1,17 @@
+.goto-ct {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #777;
+    opacity: 0.6;
+    cursor: pointer;
+    text-align: center;
+}
+
+.goto-ct:hover {
+    opacity: 0.9;
+}
